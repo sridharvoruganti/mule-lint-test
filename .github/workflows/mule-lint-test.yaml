@@ -19,7 +19,7 @@ jobs:
       - name: "Check out repository code"
         uses: actions/checkout@v2
       - name: "Run action"
-        uses: mule-lint-test/github-action@main
+        uses: mule-lint/github-action@trunk
         with:
           rules-path: rules.txt
           dictionary-path: dictionary.txt
@@ -30,4 +30,3 @@ jobs:
           name: mule-lint-test-results
           path: output.json
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      
