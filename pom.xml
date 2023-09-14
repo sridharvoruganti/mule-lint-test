@@ -75,6 +75,12 @@
 			<version>1.5.1</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
+		<!-- - temp for testing -->
+	   <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+         </dependency>
 	</dependencies>
 
 	<repositories>
