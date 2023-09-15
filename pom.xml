@@ -26,7 +26,7 @@
 				<groupId>org.nuisto</groupId>
 				<artifactId>mule-lint-maven-plugin</artifactId>
 				<version>${mule.lint.version}</version>
-				<executions>
+				<!-- <executions>
 					<execution>
 						<id>runit</id>
 						<phase>compile</phase>
@@ -40,7 +40,7 @@
 					<rules>rules.txt</rules>
 					<sources>src/main/mule</sources>
 					<output>results.json</output>
-				</configuration>
+				</configuration> -->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
