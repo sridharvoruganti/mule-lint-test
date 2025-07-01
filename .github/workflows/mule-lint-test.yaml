@@ -1,7 +1,5 @@
 on:
-  push:
-    branches:
-      - dev
+   workflow_dispatch:
 
 name: "Run Mule Lint"
 
